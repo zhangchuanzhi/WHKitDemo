@@ -29,9 +29,12 @@
 		239F70491F1463560055EF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239F70471F1463560055EF36 /* Main.storyboard */; };
 		239F704B1F1463560055EF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239F704A1F1463560055EF36 /* Assets.xcassets */; };
 		239F704E1F1463560055EF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239F704C1F1463560055EF36 /* LaunchScreen.storyboard */; };
+		74B9EF7958F2D5DE9F4C585B /* libPods-WHKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0618988BAF55D895F1AEDF0B /* libPods-WHKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0618988BAF55D895F1AEDF0B /* libPods-WHKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D30EECE16DCDB01201249EE /* Pods-WHKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHKitDemo/Pods-WHKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		239F6FFF1F1463550055EF36 /* WHKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239F70021F1463550055EF36 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		239F70041F1463550055EF36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +65,10 @@
 		239F703A1F1463550055EF36 /* ZGMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMineController.h; sourceTree = "<group>"; };
 		239F703B1F1463550055EF36 /* ZGMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGMineController.m; sourceTree = "<group>"; };
 		239F70481F1463560055EF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		239F704A1F1463560055EF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		239F704A1F1463560055EF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		239F704D1F1463560055EF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		239F704F1F1463560055EF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525A16FADE9E9E24EE3CCECD /* Pods-WHKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHKitDemo/Pods-WHKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				239F70071F1463550055EF36 /* UIKit.framework in Frameworks */,
 				239F70051F1463550055EF36 /* Foundation.framework in Frameworks */,
 				239F70091F1463550055EF36 /* CoreImage.framework in Frameworks */,
+				74B9EF7958F2D5DE9F4C585B /* libPods-WHKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,7 @@
 				239F700A1F1463550055EF36 /* WHKitDemo */,
 				239F70011F1463550055EF36 /* Frameworks */,
 				239F70001F1463550055EF36 /* Products */,
+				A85BADE684DA6D645EF40A61 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +112,7 @@
 				239F70041F1463550055EF36 /* Foundation.framework */,
 				239F70061F1463550055EF36 /* UIKit.framework */,
 				239F70081F1463550055EF36 /* CoreImage.framework */,
+				0618988BAF55D895F1AEDF0B /* libPods-WHKitDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,14 +120,6 @@
 		239F700A1F1463550055EF36 /* WHKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				239F700E1F1463550055EF36 /* AppDelegate.h */,
-				239F700F1F1463550055EF36 /* AppDelegate.m */,
-				239F70111F1463550055EF36 /* ViewController.h */,
-				239F70121F1463550055EF36 /* ViewController.m */,
-				239F70471F1463560055EF36 /* Main.storyboard */,
-				239F704A1F1463560055EF36 /* Assets.xcassets */,
-				239F704C1F1463560055EF36 /* LaunchScreen.storyboard */,
-				239F704F1F1463560055EF36 /* Info.plist */,
 				239F70451F1463560055EF36 /* Utils */,
 				239F70431F1463550055EF36 /* Resource */,
 				239F70411F1463550055EF36 /* ThridParty */,
@@ -137,6 +136,9 @@
 		239F700B1F1463550055EF36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				239F70471F1463560055EF36 /* Main.storyboard */,
+				239F704C1F1463560055EF36 /* LaunchScreen.storyboard */,
+				239F704F1F1463560055EF36 /* Info.plist */,
 				239F700C1F1463550055EF36 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -170,6 +172,10 @@
 		239F70251F1463550055EF36 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				239F70111F1463550055EF36 /* ViewController.h */,
+				239F70121F1463550055EF36 /* ViewController.m */,
+				239F700E1F1463550055EF36 /* AppDelegate.h */,
+				239F700F1F1463550055EF36 /* AppDelegate.m */,
 				239F70261F1463550055EF36 /* AppDelegate+AppService.h */,
 				239F70271F1463550055EF36 /* AppDelegate+AppService.m */,
 			);
@@ -305,6 +311,7 @@
 		239F70431F1463550055EF36 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				239F704A1F1463560055EF36 /* Assets.xcassets */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -316,6 +323,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		A85BADE684DA6D645EF40A61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525A16FADE9E9E24EE3CCECD /* Pods-WHKitDemo.debug.xcconfig */,
+				0D30EECE16DCDB01201249EE /* Pods-WHKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 239F70521F1463560055EF36 /* Build configuration list for PBXNativeTarget "WHKitDemo" */;
 			buildPhases = (
+				6BB80B4787A455D99F962201 /* [CP] Check Pods Manifest.lock */,
 				239F6FFB1F1463550055EF36 /* Sources */,
 				239F6FFC1F1463550055EF36 /* Frameworks */,
 				239F6FFD1F1463550055EF36 /* Resources */,
+				BA9A11849B54E031507434FC /* [CP] Embed Pods Frameworks */,
+				8B6CC577EBB257E18EAE7A86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -389,6 +408,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB80B4787A455D99F962201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6CC577EBB257E18EAE7A86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHKitDemo/Pods-WHKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9A11849B54E031507434FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHKitDemo/Pods-WHKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		239F6FFB1F1463550055EF36 /* Sources */ = {
@@ -521,9 +588,13 @@
 		};
 		239F70531F1463560055EF36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525A16FADE9E9E24EE3CCECD /* Pods-WHKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WHKitDemo/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = WHKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.WHKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,9 +603,13 @@
 		};
 		239F70541F1463560055EF36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D30EECE16DCDB01201249EE /* Pods-WHKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WHKitDemo/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = WHKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.WHKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +635,7 @@
 				239F70541F1463560055EF36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

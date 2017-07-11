@@ -9,5 +9,5 @@
 #ifndef ZGThirdMacros_h
 #define ZGThirdMacros_h
 
-
+#import "WHKit.h"
 #endif 
